@@ -310,7 +310,6 @@ namespace AdvancedUberLabLayout
         #region ClassVariables
 
         private const string CachedImages = "CachedImages";
-        private const string ImageLink = "http://www.poelab.com/wp-content/uploads/";
         private const int ImageWidth = 841;
         private const int ImageHeight = 270;
         private string ImagesDirectory => Path.Combine(DirectoryFullName, CachedImages);
